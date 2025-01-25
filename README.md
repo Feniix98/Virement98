@@ -1,18 +1,18 @@
-# ⚡Radar
+# :bank:
 
-# 🎨 Description
-- Ce plugin permet d'implémenter un système de virement sur le jeu Nova-Life : Amboise via le numéro de télephone !
+# :art: Description
+- Ce plugin permet d'implémenter un système de virement sur le jeu Nova-Life : Amboise via le numéro de téléphone vous pouvez y acceder via **AAMenu(Touche P par défaut)** => **Interaction** => **Virement** !
 
-# 🔔 Comment l'utiliser
+# :bell: Comment l'utiliser
 - Pour utiliser ce plugin il faudra :
 - Le mettre sur votre serveur
 - Redémarrer le serveur
 
-# ❗Informations supplémentaires
+# :exclamation:Informations supplémentaires
 - Ce plugin possède un Webhook m'informant de qui utilise mon plugin
 
-# 🛠️ Installation
+# :tools: Installation
 *[Virement98](https://github.com/Feniix98/Virement98/releases/latest)*
 
-# 📗  Dépendance
+# :green_book:  Dépendance
 *[ModKit & AAMenu](https://github.com/Aarnow/NovaLife_ModKit-Releases/releases/latest)*
