@@ -1,4 +1,4 @@
-# :bank:
+# :bank: Virement
 
 # :art: Description
 - Ce plugin permet d'implémenter un système de virement sur le jeu Nova-Life : Amboise via le numéro de téléphone vous pouvez y acceder via **AAMenu(Touche P par défaut)** => **Interaction** => **Virement** !
