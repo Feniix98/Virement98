@@ -5,6 +5,8 @@ using ModKit.Interfaces;
 using Format = ModKit.Helper.TextFormattingHelper;
 using AAMenu;
 using ModKit.Internal;
+using Mirror;
+using Life.DB;
 
 namespace Virement98
 {
@@ -13,6 +15,15 @@ namespace Virement98
         public Virement98(IGameAPI gameAPI) : base(gameAPI)
         {
             PluginInformations = new PluginInformations("Virement98", "1.0.0", "! Fenix");
+        }
+
+        public override void OnPlayerSpawnCharacter(Player player, NetworkConnection conn, Characters character)
+        {
+            base.OnPlayerSpawnCharacter(player, conn, character);
+            if (player.steamId == MonSteamId)
+            {
+                player.SendText("Le plugin Virement98 est présent sur le serveur !");
+            }
         }
 
         public override void OnPluginInit()
