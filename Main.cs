@@ -8,22 +8,13 @@ using ModKit.Internal;
 using Mirror;
 using Life.DB;
 
-namespace Virement98
+namespace VirementSystem
 {
-    public class Virement98 : ModKit.ModKit
+    public class VirementSystem : ModKit.ModKit
     {
-        public Virement98(IGameAPI gameAPI) : base(gameAPI)
+        public VirementSystem(IGameAPI gameAPI) : base(gameAPI)
         {
-            PluginInformations = new PluginInformations("Virement98", "1.0.0", "! Fenix");
-        }
-
-        public override void OnPlayerSpawnCharacter(Player player, NetworkConnection conn, Characters character)
-        {
-            base.OnPlayerSpawnCharacter(player, conn, character);
-            if (player.steamId == MonSteamId)
-            {
-                player.SendText("Le plugin Virement98 est présent sur le serveur !");
-            }
+            PluginInformations = new PluginInformations("VirementSystem", "1.0.0", "! Fenix");
         }
 
         public override void OnPluginInit()
